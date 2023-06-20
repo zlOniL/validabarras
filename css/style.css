@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Decoração Box 1 */
+
+.box > h1{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box > form > input{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box > form > a > button{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Decoração Box 2 */
+
+.box2{
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    border: 2px, black;
+    border-radius: 10px;
+}
